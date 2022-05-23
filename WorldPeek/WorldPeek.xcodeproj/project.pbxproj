@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF8282E5283631E700464178 /* WorldPeekApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8282E4283631E700464178 /* WorldPeekApp.swift */; };
+		EF8282E9283631E800464178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF8282E8283631E800464178 /* Assets.xcassets */; };
+		EF8282EC283631E800464178 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF8282EB283631E800464178 /* Preview Assets.xcassets */; };
+		EF8282F528363C9500464178 /* PlacesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8282F428363C9500464178 /* PlacesView.swift */; };
+		EF8282F728363CAA00464178 /* PlaceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8282F628363CAA00464178 /* PlaceDetailView.swift */; };
+		EF8282FB28363CED00464178 /* PinnedPlacesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8282FA28363CED00464178 /* PinnedPlacesView.swift */; };
+		EF8282FD28363D5900464178 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8282FC28363D5900464178 /* Location.swift */; };
+		EF8282FF28363D6C00464178 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8282FE28363D6C00464178 /* Result.swift */; };
+		EF82830B2836632200464178 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF82830A2836632200464178 /* MapView.swift */; };
+		EF82830D2836664100464178 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF82830C2836664100464178 /* MapViewModel.swift */; };
+		EF82830F2836991400464178 /* PlacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF82830E2836991400464178 /* PlacesViewModel.swift */; };
+		EF8283112836A20900464178 /* PlacesListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8283102836A20900464178 /* PlacesListRow.swift */; };
+		EFE4A0E928375E1F0018D8F3 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = EFE4A0E828375E1F0018D8F3 /* SDWebImageSwiftUI */; };
+		EFE4A0EB283794AC0018D8F3 /* PlaceDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE4A0EA283794AC0018D8F3 /* PlaceDetailViewModel.swift */; };
+		EFE4A0F82837B6120018D8F3 /* RichText in Frameworks */ = {isa = PBXBuildFile; productRef = EFE4A0F72837B6120018D8F3 /* RichText */; };
+		EFE4A0FA2837BF140018D8F3 /* PlaceQuickInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE4A0F92837BF140018D8F3 /* PlaceQuickInfo.swift */; };
+		EFE4A0FC2837DFE40018D8F3 /* PlaceDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE4A0FB2837DFE40018D8F3 /* PlaceDescription.swift */; };
+		EFE4A0FE2838336A0018D8F3 /* ImageResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE4A0FD2838336A0018D8F3 /* ImageResult.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF8282E1283631E700464178 /* WorldPeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldPeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8282E4283631E700464178 /* WorldPeekApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldPeekApp.swift; sourceTree = "<group>"; };
+		EF8282E8283631E800464178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF8282EB283631E800464178 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF8282F428363C9500464178 /* PlacesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesView.swift; sourceTree = "<group>"; };
+		EF8282F628363CAA00464178 /* PlaceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailView.swift; sourceTree = "<group>"; };
+		EF8282FA28363CED00464178 /* PinnedPlacesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinnedPlacesView.swift; sourceTree = "<group>"; };
+		EF8282FC28363D5900464178 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		EF8282FE28363D6C00464178 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		EF82830A2836632200464178 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		EF82830C2836664100464178 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		EF82830E2836991400464178 /* PlacesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewModel.swift; sourceTree = "<group>"; };
+		EF8283102836A20900464178 /* PlacesListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesListRow.swift; sourceTree = "<group>"; };
+		EFE4A0EA283794AC0018D8F3 /* PlaceDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailViewModel.swift; sourceTree = "<group>"; };
+		EFE4A0F92837BF140018D8F3 /* PlaceQuickInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceQuickInfo.swift; sourceTree = "<group>"; };
+		EFE4A0FB2837DFE40018D8F3 /* PlaceDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDescription.swift; sourceTree = "<group>"; };
+		EFE4A0FD2838336A0018D8F3 /* ImageResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageResult.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF8282DE283631E700464178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE4A0E928375E1F0018D8F3 /* SDWebImageSwiftUI in Frameworks */,
+				EFE4A0F82837B6120018D8F3 /* RichText in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF8282D8283631E700464178 = {
+			isa = PBXGroup;
+			children = (
+				EF8282E3283631E700464178 /* WorldPeek */,
+				EF8282E2283631E700464178 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF8282E2283631E700464178 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF8282E1283631E700464178 /* WorldPeek.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF8282E3283631E700464178 /* WorldPeek */ = {
+			isa = PBXGroup;
+			children = (
+				EF8282E4283631E700464178 /* WorldPeekApp.swift */,
+				EF82830A2836632200464178 /* MapView.swift */,
+				EF82830C2836664100464178 /* MapViewModel.swift */,
+				EF8282F428363C9500464178 /* PlacesView.swift */,
+				EF8283102836A20900464178 /* PlacesListRow.swift */,
+				EF82830E2836991400464178 /* PlacesViewModel.swift */,
+				EF8282F628363CAA00464178 /* PlaceDetailView.swift */,
+				EFE4A0F92837BF140018D8F3 /* PlaceQuickInfo.swift */,
+				EFE4A0FB2837DFE40018D8F3 /* PlaceDescription.swift */,
+				EFE4A0EA283794AC0018D8F3 /* PlaceDetailViewModel.swift */,
+				EF8282FA28363CED00464178 /* PinnedPlacesView.swift */,
+				EF8282FC28363D5900464178 /* Location.swift */,
+				EF8282FE28363D6C00464178 /* Result.swift */,
+				EFE4A0FD2838336A0018D8F3 /* ImageResult.swift */,
+				EF8282E8283631E800464178 /* Assets.xcassets */,
+				EF8282EA283631E800464178 /* Preview Content */,
+			);
+			path = WorldPeek;
+			sourceTree = "<group>";
+		};
+		EF8282EA283631E800464178 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EF8282EB283631E800464178 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF8282E0283631E700464178 /* WorldPeek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8282EF283631E800464178 /* Build configuration list for PBXNativeTarget "WorldPeek" */;
+			buildPhases = (
+				EF8282DD283631E700464178 /* Sources */,
+				EF8282DE283631E700464178 /* Frameworks */,
+				EF8282DF283631E700464178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorldPeek;
+			packageProductDependencies = (
+				EFE4A0E828375E1F0018D8F3 /* SDWebImageSwiftUI */,
+				EFE4A0F72837B6120018D8F3 /* RichText */,
+			);
+			productName = WorldPeek;
+			productReference = EF8282E1283631E700464178 /* WorldPeek.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF8282D9283631E700464178 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					EF8282E0283631E700464178 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EF8282DC283631E700464178 /* Build configuration list for PBXProject "WorldPeek" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF8282D8283631E700464178;
+			packageReferences = (
+				EFE4A0E728375E1F0018D8F3 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				EFE4A0F62837B6120018D8F3 /* XCRemoteSwiftPackageReference "RichText" */,
+			);
+			productRefGroup = EF8282E2283631E700464178 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF8282E0283631E700464178 /* WorldPeek */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF8282DF283631E700464178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8282EC283631E800464178 /* Preview Assets.xcassets in Resources */,
+				EF8282E9283631E800464178 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF8282DD283631E700464178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE4A0FC2837DFE40018D8F3 /* PlaceDescription.swift in Sources */,
+				EF8283112836A20900464178 /* PlacesListRow.swift in Sources */,
+				EF82830B2836632200464178 /* MapView.swift in Sources */,
+				EFE4A0FA2837BF140018D8F3 /* PlaceQuickInfo.swift in Sources */,
+				EF8282E5283631E700464178 /* WorldPeekApp.swift in Sources */,
+				EF8282F528363C9500464178 /* PlacesView.swift in Sources */,
+				EF82830F2836991400464178 /* PlacesViewModel.swift in Sources */,
+				EF8282FB28363CED00464178 /* PinnedPlacesView.swift in Sources */,
+				EF8282FF28363D6C00464178 /* Result.swift in Sources */,
+				EF8282FD28363D5900464178 /* Location.swift in Sources */,
+				EF8282F728363CAA00464178 /* PlaceDetailView.swift in Sources */,
+				EFE4A0FE2838336A0018D8F3 /* ImageResult.swift in Sources */,
+				EFE4A0EB283794AC0018D8F3 /* PlaceDetailViewModel.swift in Sources */,
+				EF82830D2836664100464178 /* MapViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EF8282ED283631E800464178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF8282EE283631E800464178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF8282F0283631E800464178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WorldPeek/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires the user's current location when the app in use to function properly.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.avishka.WorldPeek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF8282F1283631E800464178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WorldPeek/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires the user's current location when the app in use to function properly.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.avishka.WorldPeek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF8282DC283631E700464178 /* Build configuration list for PBXProject "WorldPeek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8282ED283631E800464178 /* Debug */,
+				EF8282EE283631E800464178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF8282EF283631E800464178 /* Build configuration list for PBXNativeTarget "WorldPeek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8282F0283631E800464178 /* Debug */,
+				EF8282F1283631E800464178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EFE4A0E728375E1F0018D8F3 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		EFE4A0F62837B6120018D8F3 /* XCRemoteSwiftPackageReference "RichText" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/NuPlay/RichText";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EFE4A0E828375E1F0018D8F3 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EFE4A0E728375E1F0018D8F3 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		EFE4A0F72837B6120018D8F3 /* RichText */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EFE4A0F62837B6120018D8F3 /* XCRemoteSwiftPackageReference "RichText" */;
+			productName = RichText;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EF8282D9283631E700464178 /* Project object */;
+}
