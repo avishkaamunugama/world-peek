@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/NuPlay/RichText",
       "state" : {
-        "revision" : "f22101de72534f15cc4a945269e1d37d4cba4cad",
-        "version" : "1.7.0"
+        "branch" : "main",
+        "revision" : "e771ba5048fdcc5900dc3b16e0a0dd0511f7f919"
       }
     },
     {
@@ -23,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/SDWebImage/SDWebImageSwiftUI",
       "state" : {
-        "revision" : "cd8625b7cf11a97698e180d28bb7d5d357196678",
-        "version" : "2.0.2"
+        "branch" : "master",
+        "revision" : "336d3f6d3b53729c1f274bf6b75f4532ada116eb"
       }
     }
   ],

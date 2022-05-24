@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF443A54283C9362002B8A1F /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = EF443A53283C9362002B8A1F /* SDWebImageSwiftUI */; };
+		EF443A57283C9392002B8A1F /* RichText in Frameworks */ = {isa = PBXBuildFile; productRef = EF443A56283C9392002B8A1F /* RichText */; };
 		EF8282E5283631E700464178 /* WorldPeekApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8282E4283631E700464178 /* WorldPeekApp.swift */; };
 		EF8282E9283631E800464178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF8282E8283631E800464178 /* Assets.xcassets */; };
 		EF8282EC283631E800464178 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF8282EB283631E800464178 /* Preview Assets.xcassets */; };
@@ -19,9 +21,7 @@
 		EF82830D2836664100464178 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF82830C2836664100464178 /* MapViewModel.swift */; };
 		EF82830F2836991400464178 /* PlacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF82830E2836991400464178 /* PlacesViewModel.swift */; };
 		EF8283112836A20900464178 /* PlacesListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8283102836A20900464178 /* PlacesListRow.swift */; };
-		EFE4A0E928375E1F0018D8F3 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = EFE4A0E828375E1F0018D8F3 /* SDWebImageSwiftUI */; };
 		EFE4A0EB283794AC0018D8F3 /* PlaceDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE4A0EA283794AC0018D8F3 /* PlaceDetailViewModel.swift */; };
-		EFE4A0F82837B6120018D8F3 /* RichText in Frameworks */ = {isa = PBXBuildFile; productRef = EFE4A0F72837B6120018D8F3 /* RichText */; };
 		EFE4A0FA2837BF140018D8F3 /* PlaceQuickInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE4A0F92837BF140018D8F3 /* PlaceQuickInfo.swift */; };
 		EFE4A0FC2837DFE40018D8F3 /* PlaceDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE4A0FB2837DFE40018D8F3 /* PlaceDescription.swift */; };
 		EFE4A0FE2838336A0018D8F3 /* ImageResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE4A0FD2838336A0018D8F3 /* ImageResult.swift */; };
@@ -52,8 +52,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFE4A0E928375E1F0018D8F3 /* SDWebImageSwiftUI in Frameworks */,
-				EFE4A0F82837B6120018D8F3 /* RichText in Frameworks */,
+				EF443A54283C9362002B8A1F /* SDWebImageSwiftUI in Frameworks */,
+				EF443A57283C9392002B8A1F /* RichText in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,8 +124,8 @@
 			);
 			name = WorldPeek;
 			packageProductDependencies = (
-				EFE4A0E828375E1F0018D8F3 /* SDWebImageSwiftUI */,
-				EFE4A0F72837B6120018D8F3 /* RichText */,
+				EF443A53283C9362002B8A1F /* SDWebImageSwiftUI */,
+				EF443A56283C9392002B8A1F /* RichText */,
 			);
 			productName = WorldPeek;
 			productReference = EF8282E1283631E700464178 /* WorldPeek.app */;
@@ -156,8 +156,8 @@
 			);
 			mainGroup = EF8282D8283631E700464178;
 			packageReferences = (
-				EFE4A0E728375E1F0018D8F3 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
-				EFE4A0F62837B6120018D8F3 /* XCRemoteSwiftPackageReference "RichText" */,
+				EF443A52283C9362002B8A1F /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				EF443A55283C9392002B8A1F /* XCRemoteSwiftPackageReference "RichText" */,
 			);
 			productRefGroup = EF8282E2283631E700464178 /* Products */;
 			projectDirPath = "";
@@ -401,33 +401,33 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		EFE4A0E728375E1F0018D8F3 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+		EF443A52283C9362002B8A1F /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
+				branch = master;
+				kind = branch;
 			};
 		};
-		EFE4A0F62837B6120018D8F3 /* XCRemoteSwiftPackageReference "RichText" */ = {
+		EF443A55283C9392002B8A1F /* XCRemoteSwiftPackageReference "RichText" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/NuPlay/RichText";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				branch = main;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		EFE4A0E828375E1F0018D8F3 /* SDWebImageSwiftUI */ = {
+		EF443A53283C9362002B8A1F /* SDWebImageSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = EFE4A0E728375E1F0018D8F3 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			package = EF443A52283C9362002B8A1F /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
 			productName = SDWebImageSwiftUI;
 		};
-		EFE4A0F72837B6120018D8F3 /* RichText */ = {
+		EF443A56283C9392002B8A1F /* RichText */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = EFE4A0F62837B6120018D8F3 /* XCRemoteSwiftPackageReference "RichText" */;
+			package = EF443A55283C9392002B8A1F /* XCRemoteSwiftPackageReference "RichText" */;
 			productName = RichText;
 		};
 /* End XCSwiftPackageProductDependency section */
