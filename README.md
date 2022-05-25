@@ -3,7 +3,7 @@ An intuitive app where users can identify famous placemarks nearby or any locati
 
 Below are some screenshots of the app. 
 
-<img src="Screenshots/Simulator Screen Shot - iPhone 13 Pro - 2022-05-24 at 09.48.17.png" width="250"><img src="Screenshots/Simulator Screen Shot - iPhone 13 Pro - 2022-05-24 at 09.48.27.png" width="250">
+<img src="Screenshots/Simulator Screen Shot - iPhone 13 Pro - 2022-05-25 at 09.48.54.png" width="250"><img src="Screenshots/Simulator Screen Shot - iPhone 13 Pro - 2022-05-25 at 09.44.16.png" width="250">
 
 <img src="Screenshots/Simulator Screen Shot - iPhone 13 Pro - 2022-05-24 at 09.53.04.png" width="250"><img src="Screenshots/Simulator Screen Shot - iPhone 13 Pro - 2022-05-24 at 09.53.01.png" width="250">
 

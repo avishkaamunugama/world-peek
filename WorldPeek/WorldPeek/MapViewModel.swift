@@ -12,7 +12,7 @@ extension MapView {
     @MainActor class MapViewModel: NSObject, ObservableObject, CLLocationManagerDelegate {
         
         private static let defaultSpan = MKCoordinateSpan(latitudeDelta: 12.0, longitudeDelta: 12.0)
-        private static let defaultCoordinates = CLLocationCoordinate2D(latitude: 7.290000, longitude: 80.630000)
+        private static let defaultCoordinates = CLLocationCoordinate2D(latitude: 59.403295, longitude: 18.326333)
         
         @Published var mapRegion = MKCoordinateRegion(center: defaultCoordinates, span: defaultSpan)
         @Published var selection: Int?
